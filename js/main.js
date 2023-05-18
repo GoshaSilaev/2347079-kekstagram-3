@@ -1,6 +1,5 @@
-import {addFormAction} from './picture_editor.js';
-import {getPictureList} from './picture.js';
+import { getData } from './api.js';
+import {renderPics} from './pic_render.js';
 
 
-getPictureList();
-addFormAction();
+getData(renderPics);
